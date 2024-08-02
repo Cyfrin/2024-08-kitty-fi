@@ -24,8 +24,10 @@ _This code was created for Codehawks as a first flight. It is made with bugs and
 _Don't use any part of this code without reviewing it and audit it._
 
 # About
-KittyFi, a EUR pegged stablecoin based protocol which proactively maintains the user's deposited collateral to earn yield on it via Aave protocol. <br>
-With KittyFi, the collateral deposited by user will not just remain in there for backing the KittyCoin but will earn yield on it via Aave protocol. <br>
+KittyFi, a EUR pegged stablecoin based protocol which proactively maintains the user's deposited collateral to earn yield on it via Aave protocol.
+
+With KittyFi, the collateral deposited by user will not just remain in there for backing the KittyCoin but will earn yield on it via Aave protocol.
+
 By utilizing the interest earned on collateral, the protocol will reduce the risk of user getting liquidated by equally allocating the interest earned on collateral to every user in the pool.
 
 ### KittyCoin
@@ -33,7 +35,8 @@ The stable coin of KittyFi protocol which is pegged to EUR and can be minted by 
 
 ### KittyPool
 This smart contract is assigned the role to allow user to deposit collateral and mint KittyCoin from it. The KittyPool contract routes the call to the respective vault for deposit and withdrawal fo collateral which is created for every collateral token used in protocol. <br>
-The user is required to main overcollateralization in order to prevent liquidation of their pawsition (I mean position (meows, purrss)). <br>
+The user is required to main overcollateralization in order to prevent liquidation of their pawsition (I mean position (meows, purrss)).
+
 The pool also handles liquidations, the user gets some percentage reward on the collateral liquidated from the user's vault.
 
 ### KittyVault
